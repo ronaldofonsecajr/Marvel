@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,300&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+#total{
+    width: 98%;
+    max-width: 980px;
+    height: auto;
+    margin: auto;
+}
+
+#topo{
+    width: 100%;
+    height: auto;
+    float: left;
+
+}
+
+#logo{
+    width:204px;
+    height:84px;
+    margin:18px auto;
+}
+
+#menu{
+    height: 40px;
+    background-color: black;
+    line-height: 40px;
+}
+
+#menu a{
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 0 60px; 
+}
+
+#banner{
+    width: 100%;
+    height: auto;
+    float: left;
+    margin: 2px auto;
+}
+
+#banner img{
+    width: 100%;
+}
+
+#anucio-tablet{
+    width: 100%;
+    float: left;
+    text-align: center;
+    color: white;
+    background: red;
+    padding: 50px auto;
+    text-transform: uppercase;
+    display: none;
+}
+
+#conteudo{
+    width: 60%;
+    float: left;
+}
+
+#coluna{
+    width: 40%;
+    float: right;
+}
+
+#somos{
+    text-align: center;
+    color: #001c2e;
+}
+
+#contato{
+    text-align: center;
+    color: #001c2e;
+}
+
+#servico{
+    text-align: center;
+    color: #001c2e;
+}
+
+#cliente{
+    text-align: center;
+    color: #001c2e;
+}
+
+#somos{
+    text-align: center;
+    color: #001c2e;
+}
+
+input[type=text]{
+    width: 700px;
+    height: 30px;
+    margin-top: 5px;
+}
+textarea{
+    width: 700px;
+    height: 200px;
+    margin-top: 5px;
+    resize: none;
+}
+
+input[type=submit]{
+    width: 200px;
+    height: 40px;
+    background-color: white;
+}
+
+#rodape{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background-color: red;
+    text-align: center;
+    color: white;
+    float: left;
+}
+
+/*MEDIA QUERY*/
+@media screen and (min-width:441px) and (max-width:762px) {
+    #anucio-tablet{
+        display: block;
+    } 
+}
+
+@media screen and (min-width:410px) and (max-width:996px) {
+    #menu a{
+        margin: 0 30px;
+
+    } 
+}
+
+@media screen and (max-width:600px) {
+    #menu a{
+        margin: 0 10px;
+    }
+}
+
+@media screen and (max-width:390px) {
+    #menu{
+        height: auto;
+    }
+    #menu a{
+        display: block;
+        border: 1px solid #ccc;
+    }
+
+    #banner{
+        display: none;
+    }
+
+    #conteudo, #coluna{
+        width: 100%;
+    }
+    
+}
+
